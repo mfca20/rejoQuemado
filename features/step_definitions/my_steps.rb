@@ -4,5 +4,8 @@ end
 
 Then(/^debo ver "([^"]*)"$/) do |bienvenida|
    expect(page.body).to match /#{bienvenida}/m
+end
 
-  end
+When (/^inicio juego$/) do
+  click_button("Jugar")
+end

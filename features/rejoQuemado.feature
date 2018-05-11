@@ -9,5 +9,10 @@ Scenario:  El juego debe tener un mensaje de bienvenida
 	Then debo ver "Bienvenido al Juego Rejo Quemado"
 
 
+Scenario:  El juego debe tener un boton para iniciar el juego
+	Given que ingreso al juego
+	When inicio juego
+	Then debo ver "Intentemos Ahora" 
+ 
 
 
