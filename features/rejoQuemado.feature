@@ -13,6 +13,12 @@ Scenario:  El juego debe tener un boton para iniciar el juego
 	Given que ingreso al juego
 	When inicio juego
 	Then debo ver "Intentemos Ahora" 
- 
 
+Scenario:  El juego contiene un valor oculto
+	Given que ingreso al juego
+	And inicio juego
+	When ingreso el valor "123"
+	And probemos suerte
+	Then debo ver "caliente"
+ 	
 
