@@ -6,5 +6,8 @@ Feature:
 
 Scenario:  El juego debe tener un mensaje de bienvenida
 	Given que ingreso al juego
-	Then debo ver "Bienvenido al juego Rejo Quemado"
+	Then debo ver "Bienvenido al Juego Rejo Quemado"
+
+
+
 
