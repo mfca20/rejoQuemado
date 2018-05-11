@@ -13,8 +13,10 @@ class RejoQuemado
 			if resultado < 0
 			resultado = resultado * (-1)
 			end
-			if resultado > 100  
+			if resultado > 100 and resultado < 400 
 				return "frio"
+			elsif resultado >= 400 
+				return "muy frio"
 			elsif resultado >= 10 and resultado <= 100 
 					return "tibio"
 			elsif resultado >= 1 and resultado <= 9  

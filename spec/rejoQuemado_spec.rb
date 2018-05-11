@@ -47,4 +47,10 @@ describe RejoQuemado do
 		pf = RejoQuemado.new 123
 		expect(pf.valido(123)).to eq "has ganado"
 	end
+
+	it "el numero es 800 me debe decir muy frio" do 
+		pf = RejoQuemado.new 123
+		expect(pf.valido(800)).to eq "muy frio"
+	end
+
 end
