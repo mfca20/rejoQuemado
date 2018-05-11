@@ -6,9 +6,8 @@
 <body>
 <h1 style="color:red; " align="CENTER">Intentemos Ahora</h1>
 	<form action="/partida" method="post">
-		<input type="text" name="probarvalor">
+		<input type="number" name="probarvalor" size="3" max="0-999">
 		<input type="submit" value="probar">
-
 	</form>
 	<h2><%= session['resultado'] %></h2>
 </body>
