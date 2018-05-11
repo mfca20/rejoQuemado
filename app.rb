@@ -9,7 +9,6 @@ end
 post '/partida' do 
 	resultado = ""
 	dato = params["probarvalor"]
-	
 	if dato == nil
 		session['resultado'] = "#{dato}"
 	else
