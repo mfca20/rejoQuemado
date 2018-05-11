@@ -35,9 +35,16 @@ Scenario:  El juego contiene un valor oculto caliente
 	And probemos suerte
 	Then debo ver "caliente"
 
-Scenario:  El juego contiene un valor oculto frip 
+Scenario:  El juego contiene un valor oculto frio
 	Given que ingreso al juego
 	And inicio juego
 	When ingreso el valor "19" 
 	And probemos suerte
 	Then debo ver "frio"
+
+Scenario:  El juego contiene un valor oculto menos frio 
+	Given que ingreso al juego
+	And inicio juego
+	When ingreso el valor "800" 
+	And probemos suerte
+	Then debo ver "muy frio"
